@@ -1,9 +1,9 @@
 galaxy_info:
   author: msltwtf
-  description: replace_desc
-  role_name: replace_name
+  description: Setup usage of an apt cache
+  role_name: apt_cache
 
-  issue_tracker_url: https://github.com/msltwtf/replace_name
+  issue_tracker_url: https://github.com/msltwtf/ansible-role.apt-cache
 
   license: MIT
   min_ansible_version: '2.10'
