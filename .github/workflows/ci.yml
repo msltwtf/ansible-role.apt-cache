@@ -42,10 +42,9 @@ jobs:
     strategy:
       matrix:
         distro:
-          - rockylinux8
-          - rockylinux9
           - debian11
           - debian10
+          - debian9
 
     steps:
       - name: Check out the codebase.
