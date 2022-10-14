@@ -1,6 +1,8 @@
 ---
 - name: Converge
   hosts: all
+  vars:
+    apt_cache_url: "http://127.0.0.1:3142"
   tasks:
     - name: "Include msltwtf.apt_cache"
       include_role:
