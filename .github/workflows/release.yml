@@ -10,8 +10,6 @@ defaults:
     working-directory: msltwtf.apt-cache
 
 jobs:
-  test:
-    uses: ./.github/workflows/ci.yml
   release:
     name: Release
     runs-on: ubuntu-latest
@@ -23,7 +21,7 @@ jobs:
           path: msltwtf.apt-cache
 
       - name: Setup Python 3
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v4
         with:
           python-version: 3.x
 
